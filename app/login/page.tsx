@@ -52,7 +52,7 @@ export default function Login() {
                 type="text"
                 value={user.email}
                 onChange={(e) => setUser({ ...user, email: e.target.value })}
-                placeholder="sarwar847"
+                placeholder="sarwar"
             />
 
             <label htmlFor="password">password</label>
@@ -62,7 +62,7 @@ export default function Login() {
                 type="text"
                 value={user.password}
                 onChange={(e) => setUser({ ...user, password: e.target.value })}
-                placeholder="sarwar123"
+                placeholder="123456"
             />
 
             <button className={`p-2 border border-blue-500 rounded-lg mt-3 mb-4 focus:outline-none focus:border-gray-600 shadow-md 
