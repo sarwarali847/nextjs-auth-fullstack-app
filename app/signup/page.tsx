@@ -54,7 +54,7 @@ export default function Signup() {
                 type="text"
                 value={user.username}
                 onChange={(e) => setUser({ ...user, username: e.target.value })}
-                placeholder="sarwar847"
+                placeholder="sarwar"
             />
 
             <label htmlFor="email">Email</label>
@@ -74,7 +74,7 @@ export default function Signup() {
                 type="text"
                 value={user.password}
                 onChange={(e) => setUser({ ...user, password: e.target.value })}
-                placeholder="sarwar123"
+                placeholder="123456"
             />
 
             <button
